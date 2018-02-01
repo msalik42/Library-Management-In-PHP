@@ -1,0 +1,123 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+#body{
+	width: 100%;
+	height: 720px;
+	margin: 0;
+	padding: 0;
+	background: gray;
+}
+#photo .img{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	border-radius: 100px;
+	border-bottom-color: red;
+	border-width: 10px;
+	box-shadow: 1px 1px 10px white;
+}
+@media only screen and (min-width: 1020px) {
+		#left-side{
+			width: 20%;
+			height: 720px;
+			margin: 0;
+			padding: 0;
+			background: black;
+			color: white;
+			min-width: 200px;
+			float: left;
+
+		}
+		#right-side{
+			float: left;
+			width: 80%;
+		}
+
+		#right-side #content .cont{
+			margin-left: 30px;
+			height: auto;
+		}
+		#body #left-side #content{
+			float: right;
+			margin-left: 10px;
+			width: 190px;
+		}
+		#body #right-side #content{
+			float: left;
+			margin-left: 10%;
+			padding-bottom: 30px;
+			width: 70%;
+			background: black;
+			color: white;
+			margin-top: 20px;
+		}
+		#body #right-side #content:hover{
+			opacity: 0.7;
+			transition:0.5s;
+		}
+		table th{
+			min-width: 150px;
+			max-width: 200px;
+		}
+		table td{
+			min-width: 150px;
+			max-width: 200px;
+		}
+}
+@media only screen and (max-width: 1020px){
+			#left-side{
+			margin: 0;
+			padding: 0;
+			background: black;
+			color: white;
+			width: 100%;
+			float: left;
+
+			}
+			#right-side{
+			margin: 0;
+			padding: 0;
+			background: white;
+			color: black;
+			width: 100%;
+			float: left;
+			}
+
+			#left-side #content .cont{
+			margin-left: 50px;
+			height: auto;
+			margin-bottom: 20px;
+			}
+			#right-side #content .cont{
+			height: auto;
+			margin: 10px;
+			margin-bottom: 10px;
+			}	
+			#body #left-side #content{
+				width: 100%;
+				height: auto;
+				clear: both;
+			}
+			#body #right-side #content{
+				width: 100%;
+				height: 250px;
+				background: black;
+				margin-bottom: 20px;
+				color: white;
+			}
+		#body #right-side #content:hover{
+			opacity: 0.7;
+			transition:0.5s;
+		}
+		table th{
+			width: 40%;
+		}
+		table td{
+			
+			width: 40%;
+		}
+}

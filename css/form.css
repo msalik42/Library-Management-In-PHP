@@ -1,0 +1,54 @@
+#form{
+			margin: 0 auto;
+			margin-top: 100px;
+			background: black;
+			height: auto;
+			padding-bottom: 30px;
+			max-width: 500px;
+			padding-top: 50px;
+			opacity: 0.9;
+			box-shadow: 2px 2px 10px white;
+			transition: 0.3s;
+		}
+		#form:hover{
+			box-shadow: 2px 2px 10px #f2d13e;
+			transition: 0.3s;
+		}
+		#label{
+			float: left;
+			margin-top: 10px;
+			color: #ffffff;
+			font-weight: bold;
+
+		}
+		#radio1,#radio2{
+			margin-right: 14px;
+			margin-top:20px;
+			margin-left: 20px;
+		}
+		#input{
+			max-width:	200px;
+			height: 25px;
+			float: right;
+			margin-left: 50px;
+			margin-top:  10px;
+			padding-left: 20px;
+			border-radius: 5px;
+		}
+		#input:hover{
+			opacity: 0.7;
+			background: #f2d13e;
+		}
+		label{
+			color:white;
+		}
+		#submit{
+			height:25px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+		#submit:hover{
+			background: #f2d13e;
+
+		}
